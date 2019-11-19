@@ -58,7 +58,6 @@
     "url": "git+https://github.com/Naltox/telegram-node-bot.git"
   },
   "scripts": {
-    "prepare": "node api-scheme/GenerateTGModels.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "4.0.5"
