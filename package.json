@@ -1,19 +1,19 @@
 {
-  "_from": "telegram-node-bot@^4.0.5",
+  "_from": "telegram-node-bot",
   "_id": "telegram-node-bot@4.0.5",
   "_inBundle": false,
   "_integrity": "sha1-H1Zay+iZJbASdlZgZpbYdhvqGQc=",
   "_location": "/telegram-node-bot",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "tag",
     "registry": true,
-    "raw": "telegram-node-bot@^4.0.5",
+    "raw": "telegram-node-bot",
     "name": "telegram-node-bot",
     "escapedName": "telegram-node-bot",
-    "rawSpec": "^4.0.5",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "^4.0.5"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/telegram-node-bot/-/telegram-node-bot-4.0.5.tgz",
   "_shasum": "1f565acbe89925b0127656606696d8761bea1907",
-  "_spec": "telegram-node-bot@^4.0.5",
+  "_spec": "telegram-node-bot",
   "_where": "/Users/amadeocharle/programming/bhagavad-gita-bot",
   "author": {
     "name": "Narek Abovyan",
@@ -58,6 +58,7 @@
     "url": "git+https://github.com/Naltox/telegram-node-bot.git"
   },
   "scripts": {
+    "prepublish": "node api-scheme/GenerateTGModels.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "4.0.5"
